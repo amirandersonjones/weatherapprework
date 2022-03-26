@@ -1,0 +1,5 @@
+.weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+  }
