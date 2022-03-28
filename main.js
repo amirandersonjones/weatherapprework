@@ -37,7 +37,7 @@ function getData() {
        //Image Data
        let image = weatherdata['weather'][0].icon;
        console.log(image)
-       document.querySelector(`#img`).innerHTML=`<src="http://openweathermap.org/img/wn/${image}.png">`
+       document.querySelector(`#img`).innerHTML=innerHTML=`<img src='http://openweathermap.org/img/wn/${image}@4x.png'>`
        
     //   
     // //    document.getElementById("img" +(i+1)).src="http://openweathermap.org/img/wn/" + data.list[i].weather[0].icon+".png";
